@@ -1,4 +1,4 @@
-FROM webhippie/minecraft-forge:10.13.2
+FROM webhippie/minecraft-cauldron:latest
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
 RUN mkdir -p /minecraft/template
