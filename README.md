@@ -116,7 +116,6 @@ docker exec -ti minecraft-dns manage help
   * [Super Crafting Frame 1.7.10.1](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290201)
   * [Thaumcraft 4.2.1.4](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292130)
   * [Thaumic Tinkerer 2.5-1.7.10-158](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289299)
-  * [Thermal Dynamics 1.0.0RC7-98](http://teamcofh.com/)
   * [Thermal Expansion 4.0.0RC7-141](http://teamcofh.com/)
   * [Thermal Foundation 1.0.0RC7-62](http://teamcofh.com/)
   * [Tinkers Construct 1.8.2a](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2218638)
