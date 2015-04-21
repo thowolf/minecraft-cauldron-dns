@@ -1,7 +1,8 @@
 # Minecraft DNSTechpack on Cauldron
 
 These are docker images for Minecraft DNSTechpack running on an
-[Minecraft Cauldron container](https://registry.hub.docker.com/webhippie/minecraft-cauldron/)
+[Minecraft Cauldron container](https://registry.hub.docker.com/webhippie/minecraft-cauldron/).
+The cuurrent container size is ```390.3 MB```
 
 
 ## Usage
