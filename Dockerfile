@@ -1,4 +1,4 @@
-FROM webhippie/minecraft-cauldron:latest
+FROM twolf/minecraft-cauldron:latest
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
 VOLUME ["/minecraft/merge", "/minecraft/world", "/minecraft/logs", "/minecraft/backups"]
