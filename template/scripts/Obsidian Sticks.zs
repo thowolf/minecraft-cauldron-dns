@@ -1,2 +1,0 @@
-recipes.remove(<WR-CBE|Core:obsidianStick>);
-recipes.addShaped(<WR-CBE|Core:obsidianStick> * 2, [[<minecraft:obsidian>, null, null], [<minecraft:obsidian>, null, null], [<minecraft:obsidian>, null, null]]);

@@ -1,15 +1,10 @@
 FROM webhippie/minecraft-cauldron:latest
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
-RUN mkdir -p /minecraft/backups
-RUN mkdir -p /minecraft/dynmap
-RUN mkdir -p /minecraft/template
-ADD template /minecraft/template
+VOLUME ["/minecraft/merge", "/minecraft/world", "/minecraft/logs", "/minecraft/backups"]
 
-VOLUME ["/minecraft/merge", "/minecraft/world", "/minecraft/logs", "/minecraft/backups", "/minecraft/dynmap"]
-
-EXPOSE 25565 25575 8123
+ADD rootfs /
+EXPOSE 25565 25575
 
 WORKDIR /minecraft
-ENTRYPOINT ["manage"]
-CMD ["bash"]
+CMD ["/usr/bin/s6-svscan","/etc/s6"]

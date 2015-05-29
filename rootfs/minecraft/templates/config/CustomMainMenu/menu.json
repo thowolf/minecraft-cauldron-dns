@@ -1,0 +1,159 @@
+{
+    "images":
+    {
+		"title":
+        {
+            "image" : "custommainmenu:textures/gui/logo.png",
+            "posX" : -115,
+            "posY" : 0,
+            "width" : 398,
+            "height" : 225,
+            "alignment" : "top_center"
+        },
+		
+		"title2":
+        {
+            "image" : "custommainmenu:textures/gui/line.png",
+            "posX" : -50,
+            "posY" : 0,
+            "width" : 203,
+            "height" : 360,
+            "alignment" : "top_left"
+        },
+		
+		"title3":
+        {
+            "image" : "custommainmenu:textures/gui/msd.png",
+            "posX" : 110,
+            "posY" : 205,
+            "width" : 99,
+            "height" : 34,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text":"",
+            "posX":-210,
+            "posY":35,
+            "width":125,
+            "height":30,
+            "imageWidth":757,
+            "imageHeight":102,
+            "texture":"custommainmenu:textures/gui/singleplayer.png",
+            "alignment":"top_center"
+        },
+        
+        "multiplayer":
+        {
+            "text":"",
+            "posX":-210,
+            "posY":70,
+            "width":130,
+            "height":25,
+            "imageWidth":681,
+            "imageHeight":102,
+            "texture":"custommainmenu:textures/gui/multiplayer.png",
+            "alignment":"top_center"
+        },
+        
+        "mods":
+        {
+            "text":"",
+            "posX":-210,
+            "posY":100,
+            "width":130,
+            "height":22,
+            "imageWidth":314,
+            "imageHeight":102,
+            "texture":"custommainmenu:textures/gui/mods.png",
+            "alignment":"top_center"
+        },
+            
+        "options":
+        {
+            "text":"",
+            "posX":-210,
+            "posY":130,
+            "width":130,
+            "height":22,
+            "imageWidth":450,
+            "imageHeight":102,
+            "texture":"custommainmenu:textures/gui/options.png",
+            "alignment":"top_center"
+        },
+        
+        "quit":
+        {
+            "text":"",
+            "posX":-210,
+            "posY":160,
+            "width":130,
+            "height":22,
+            "imageWidth":545,
+            "imageHeight":106,
+            "texture":"custommainmenu:textures/gui/quitgame.png",
+            "alignment":"top_center"
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -210,
+            "posY" : 157,
+            "width" : 20,
+            "height" : 20
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -410,
+            "posY" : -50,
+            "width" : 20,
+            "height" : 20
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -2,
+            "alignment" : "bottom_right"
+        },
+        
+        "dns":
+        {
+            "text" : "DNS TP v7.5.4.9",
+            "posX" : 30,
+            "posY" : -15,
+            "color" : -2,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 150,
+            "posY" : -75,
+            "color" : -2,
+            "alignment" : "bottom_center"
+        },
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "blur" : false,
+            "gradient" : false
+        }
+    }
+}

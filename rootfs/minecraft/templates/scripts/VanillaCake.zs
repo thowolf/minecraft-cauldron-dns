@@ -1,0 +1,2 @@
+recipes.remove(<minecraft:cake>);
+recipes.addShaped(<minecraft:cake>, [[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>]]);
